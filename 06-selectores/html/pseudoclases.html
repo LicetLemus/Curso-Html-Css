@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pseudoclase</title>
+    <link rel="stylesheet" href="../css/pseudoclases.css" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .hover {
+        width: 300px;
+        height: 100px;
+        background-color: #b9d8c2;
+      }
+
+      .hover:hover {
+        background-color: antiquewhite;
+      }
+      
+      .listado {
+        padding: 0;
+        background-color: darkseagreen;
+      }
+
+      .listado p:first-child {
+        color: blueviolet;
+      }
+
+      a:link { /*link no visitado aun*/
+        color: blue; 
+      }
+
+      a:visited { /*link visitado*/
+        color: lightblue;
+      }
+
+      a:hover { /*al pasar el mouse por encima*/
+        color:chartreuse;
+      }
+
+      a:active { /*al dar clic, siempre debe esta en este orden*/
+        color:blueviolet;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="hover">
+      <p>
+        Nostrud dolor sunt et ipsum. Lorem commodo anim cupidatat do commodo
+        pariatur ut. Eu dolor id occaecat enim ullamco nulla eu laboris. Commodo
+        magna sit nulla minim in.
+      </p>
+    </div>
+    <div class="listado">
+        <p>parrafo 1</p>
+        <p>parrafo 2</p>
+        <p>parrafo 3</p>
+        <p>parrafo 4</p>
+      </div>
+      <div class="enlaces">
+        <a href="http://google.com" target="_blank">Enlace a google</a>
+        <a href="http://marca.com" target="_blank">Enlace a marca</a>
+      </div>
+  </body>
+</html>
+
+<!--pseudoclase: se utilizan dento del codigo css, 
+    para hacer referencia a diferentes estados de elementos dentro de nuestro html-->
+
+    <!--pseudoclase hover> se utiliza para que cambie de color al raton pasar por encima -->
+    <!--pseudoclase first child > primer hijo en este caso parrafo 1 -->
+    <!--pseudoclase first child > primer hijo en este caso parrafo 1 
+    
+    target="_blank" para que me abra el link en ota pestana
+
+aprender mas sobre pseudoclases: w3schools pseudo clases-->

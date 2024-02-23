@@ -1,0 +1,32 @@
+/*orden de especificidad, prevalece en este orden*/
+/*(1,0,0)*/
+/*(0,1,0)*/
+/*(0,0,1)*/
+/*(0,0,0)*/
+
+/*otro ejemplo*/
+/*(0,2,0)*/
+/*(0,1,0)*/
+/*(0,0,1)*/
+/*(0,0,0)*/
+
+
+/*para aumentar la espeficididad*/
+h1#h1-id .h1-class {
+    color: cadetblue;
+}
+
+
+.h1-class {
+    color: brown !important;
+}
+
+h1 {
+    color: violet !important;
+}
+
+p {
+    color: red;
+}
+
+

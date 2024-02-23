@@ -1,0 +1,19 @@
+:root { /*root Pseudoclase definimos las variables con -- */
+    --color-principal: rgba(175, 47, 192, 0.967);
+    --ancho-principal:350px;
+}
+
+/*depsues de definida la variable, se utiliza asi */
+.titulo {
+    color: var(--color-principal);
+}
+
+.footer {
+    color: var(--color-principal)
+}
+
+.contenedor {
+    background-color: antiquewhite;
+    padding: 5rem;
+    max-width: var(--ancho-principal)
+}

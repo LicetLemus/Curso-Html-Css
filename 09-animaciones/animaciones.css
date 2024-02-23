@@ -1,0 +1,41 @@
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+}
+
+
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color: cornflowerblue;
+    /*transition:1s ease-in 2s ; este atributo no crea la transicion de una posicion a la otra (cuando se mueve por el transform)
+    el segundo vale (2s) es un disley*/
+}
+
+/* animar el hijo respecto al padre*/
+
+.padre:hover .hijo {
+    /*transform: translateX(100%); /* cuando hago clic en el padre se mueve en x el hijo
+    background-color: blueviolet;*/
+    animation: traslacion 1s infinite forwards alternate; /*alternate:permite que se alterne de o a 100 de 100 a 0
+    infinite: que c ontinue el movimiento formward: cuando el movimiento se complete queda en su estado final*/
+} 
+
+@keyframes traslacion {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    /*25% {
+        transform: translateX(100%) translateY(0);
+    }*/
+    50% {
+        transform: translateX(100%) translateY(50%);
+    }
+    75% {
+        transform: translateX(0) translateY(100%);
+    }
+    100% {
+        transform: translateX(0) translateY(0);
+    }
+}

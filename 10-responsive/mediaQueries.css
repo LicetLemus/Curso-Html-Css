@@ -1,0 +1,59 @@
+h1 {
+    color: red;
+    font-size: 4rem;
+}
+
+p {
+    color: black;
+    font-size: 2rem;
+}
+
+/* @media: all: todos 
+screen, print, etc. solo afecta a los dispositivos que especifique en este momento*/
+
+
+/*@media screen and (max-width:576px)*/
+@media (max-width:576px) {
+    h1 {
+        color:blue /* cuando imprima h1 es azul*/
+    }
+}
+
+@media (min-width:576px) {
+    h1 {
+        color: green;
+    }
+}
+
+@media (min-width:995px) {
+    h1 {
+        color: blueviolet;
+    }
+}
+
+@media (min-width:305px) {
+    p {
+        color:cyan;
+    }
+}
+
+@media (orientation: landscape) {
+    p {
+        color: cornflowerblue;
+    }
+}
+
+
+/* anidar diferentes condiciones*/
+
+@media (orientation: landscape) and (min-width:500px) {
+    p {
+        color: rgb(245, 209, 11);
+    }
+}
+
+@media (min-height:300px), (min-width:1100px) {
+    p, h1 {
+        color: magenta;
+    }
+}

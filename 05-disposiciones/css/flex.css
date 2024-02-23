@@ -1,0 +1,43 @@
+.flex {
+    display: flex;
+    flex-direction:row;
+    background-color:#E7E5E5;
+    height: 300px;
+    justify-content:space-around;
+    align-items: center;
+    /*flex-wrap: wrap;*/
+
+}
+
+.contenido1 {
+    background-color:#E5D0E3;
+    /*height: 200px;*/
+    width: 100px;
+    border: 1px solid pink;
+
+}
+
+.contenido2 {
+    background-color:#E0B0D5;
+    /*height: 200px;*/
+    width: 100px;
+    border: 1px solid pink;
+    
+}
+
+.contenido3 {
+    background-color:#E5D0E3;
+    /*height: 200px;*/
+    width: 100px;
+    border: 1px solid pink;
+}
+
+/* una propiedad flex wrap: - nowrap: redimensionar los elementos en funcion de la pantalla
+- wrap no redimensiona y lo que hace es mover los elementos si aumento la pantalla
+
+
+align-items: stretch; si no le dijo la altura, el se ajusta a toda la pantalla con respecto eje y 
+
+flex-direction:row; cambia la direccion o sentido si fila, columna, 3 a 1 o 1 a 3, etc
+
+visitar esta pagina https://codepen.io/enxaneta/pen/adLPwv*/

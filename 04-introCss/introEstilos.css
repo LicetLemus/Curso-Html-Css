@@ -1,0 +1,73 @@
+.Colores {
+    color:blue;
+}
+
+.color-hexadecimal {
+    color:#262730
+}
+
+.color-rgb {
+    color: rgb(100, 0, 200);
+}
+
+.color-rgba {
+    color: rgba(10, 10, 10, 0.65)
+}
+/*fondos*/
+
+/*1. fondos de internet*/
+.fondo {
+    /*1. fondos de color normal*/
+    /*background-color:#EFF0D1;*/
+    /*2. fondos de internet*/
+    background-image: url(https://d33wubrfki0l68.cloudfront.net/89a052ddc6d368ce93d9067e8444c36a3558efe7/f9e10/static/triangle_background2-6eded4a7ad80c007fb65f02c828e5dd0.jpg);
+    background-position:left bottom;
+    /*background-position:right bottom*/
+    /*background-position:center center*/
+    /*3. fondos de descargar la imagen*/
+}
+
+.fondoInterno {
+    background-image:url(practicetool/fondo.jpeg);
+    background-position:left center;
+}
+
+/*tamaños*/
+.ancho {
+    width:300px;
+    height:50px;
+    background-color: bisque;
+}
+
+.alto {
+    background-color: aquamarine;
+    height: 50px;
+    width: 300px;
+}
+
+.tarjeta {
+    border-style:solid;
+    border-color:#93A8AC;
+    border-width: 1px;
+    /*border-top: none;*/
+    padding: 10px;
+    margin: 10px 20px;
+}
+
+
+/*Padding: espacio interno desde los bordes del contenedor o elemento y el contenido
+padding: 10px 20px arriba abajo
+padding: 10px 20px 30px 40 px en sentido reloj
+*/
+
+/*Border: borde del elemento o contenedor*/
+/*margin: espacio externo, que guarda nuestro elemento
+con respecto del resto de elementos del html*/
+
+
+/*colores predeterminados blue, red, etc*/
+/*si estoy en umna pagina y me gusta un color, por ejemplo coolors
+crear paletas aleatorias .color hexadecimal*/
+/*si .color rgb elijo los para metros , cuanto de red, green, blue*/
+/*.color rgba: rgba(red, green, blue, el alpha - o y 1 (transparencia)
+*/

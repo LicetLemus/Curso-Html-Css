@@ -1,0 +1,33 @@
+.contenedor {
+    display: grid;
+    gap: 0.5rem;
+    /*row-gap: 1rem;
+    column-gap: 0.1rem;*/
+    /*grid-template-columns: auto auto auto;*/
+    /*grid-template-columns: repeat(3, auto);*/
+    /*grid-template-columns: 20px 3rem 25vw;*/
+    grid-template-columns: 1fr 1fr 3fr;
+    grid-template-rows: 200px 5rem 100px;
+    /*grid-template-areas: 'head head head' 'main main aside' 'footer footer footer';*/
+}
+
+.item {
+    background-color: bisque;
+    padding: 0.25rem;
+    font-size: 2rem;
+    border: solid 1px blue;
+}
+
+
+.item1 {
+    /* grid-column: 2 / 4; espacio ante de la columna en este caso son cuatro columnas del grid,
+    le estoy diciemndo que quiero que empience en la columna dos hasta la 3*/
+    /*grid-area: head;*/
+    grid-column: 2 / span 2; /*empieza en ña columna dos y que ocupe dos columnas;*/
+}
+
+.item9 {
+    /*grid-area: footer;*/
+    grid-area: 2 / 1 / 4 / 3; /*empieza fila dos, columa 1, termina fila cuatro columna 3;*/
+    /*grid-area: FILAINICIO ' COLUM INICIO' FILA FINA ' COLUMN FIN ;*/
+}

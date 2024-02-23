@@ -1,0 +1,55 @@
+@use "../sass/mixins";
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    background-color: antiquewhite;
+    min-height: 100vh;
+    padding: 0.5rem;
+}
+
+h1 {
+    margin: 0;
+    @include formato-texto(#ccc);
+}
+
+p {
+    @include formato-texto(#eee);
+}
+
+/*como acceder al li con scss (anidacion)*/
+
+.listado {
+    width: 10rem;
+    background-color:rgb(176, 181, 127);
+    padding: 0.5rem;
+
+    ul {
+        background-color: #dc5fd4;
+        margin: 1rem;
+
+        li {
+            list-style:circle;
+
+            &:hover {
+                color: white;
+            }
+
+            &:active {
+                color:aqua
+            }
+        }
+    }
+}
+
+
+/*para aplicar pseudocalse como hover
+.listado ul li:hover {
+    background color: blue
+}
+asi se hacia en css, ahora se hace desde la anidacion (&)   
+    */

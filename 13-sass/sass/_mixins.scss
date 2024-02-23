@@ -1,0 +1,13 @@
+
+//Se define la variable con $ //
+$text-color:#4f4f4f; 
+
+/*mixin tengo varias lineas de codigo igual @mixing*/
+/*sino le pongo ningun parametro, pongale azul $bg-color:rgb(117, 117, 182)*/
+
+@mixin formato-texto ($bg-color:rgb(117, 117, 182)) {
+    color: $text-color;
+    width: 50rem;
+    text-transform: uppercase;
+    background-color: $bg-color
+}

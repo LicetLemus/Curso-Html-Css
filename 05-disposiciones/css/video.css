@@ -1,0 +1,33 @@
+/* colocar un vodeo de fondo con texto delante */
+/* para quitar los parametros por defecto utilizo (*) */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-family:cursive;
+    color:whitesmoke;
+    font-size:x-large;
+}
+.video {
+    width:100vw;
+    height: 100vw;
+    object-fit: cover;
+    position: fixed;
+    background-position: center bottom;
+}
+
+.header {
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
