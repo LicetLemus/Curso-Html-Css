@@ -3,7 +3,6 @@
 ¡Bienvenido a mi repositorio de apuntes del curso de HTML y CSS Básico! Aquí encontrarás todo el material y las notas que he recopilado durante el curso, los cuales me ayudaron a aprender y repasar los conceptos fundamentales de HTML y CSS.
 
 # Descripción del Proyecto
-
 Este repositorio contiene mis apuntes y ejemplos prácticos del curso de HTML y CSS Básico. Está diseñado para ser un recurso útil tanto para mí como para otros estudiantes que deseen aprender los conceptos básicos de diseño y desarrollo web.
 
 # Contenido del Curso
