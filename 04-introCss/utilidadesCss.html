@@ -1,0 +1,72 @@
+<!-- para un escribir <!DOCTYPE html>, hay un  atajo, escribir ! y unos crea una estructura-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>utilidadesCss</title>
+    <!-- formas de insertar estilos-->
+    <!-- 1. importar una hoja de estilos internas-->
+    <link rel="stylesheet" href="estilos.css" />
+    <!-- 2. como ya sabemos como trabaja css, podemos defnir estilos directamente-->
+    <style>
+      html {
+        padding: 15px;
+      }
+      p {
+        color: blue;
+      }
+    </style>
+    <!-- 3. importar estilos por ejemplo de pure.css-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+    />
+  </head>
+  <body>
+    <h1>Hola</h1>
+    <div>
+      <p>estoy importando los estilos anteriores</p>
+    </div>
+    <br />
+    <div>
+      <button class="pure-button pure-button-primary">Aceptar</button>
+    </div>
+    <br />
+    <div>
+      <button class="fa fa-cog">setting</button>
+    </div>
+    <br />
+    <div>
+      <button class="pure-button"><i class="fa fa-cog"></i>Settings</button>
+    </div>
+    <br />
+    <div>
+      <button
+        style="padding: 10px; color: black; border: 10px; border-radius: 10px"
+      >
+        Boton personalizado
+      </button>
+    </div>
+    <br />
+    <button
+      class="pure-button"
+      style="
+        display: inline-block;
+        background-color: #3498db;
+        color:white;
+        padding: 10px 20px;
+        border: 2px solid #2980b9;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        text-align:center;
+        text-decoration: none;
+        transition: blackground-color 0.3s, color 0.3s;
+      "
+    >
+      Haz clic aqui
+    </button>
+  </body>
+</html>

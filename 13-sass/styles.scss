@@ -1,0 +1,22 @@
+//componentes//
+//usars user tengo $color en mixins y componentes, use @use
+
+@use "sass/componentes" as comp; //se empieza a nombrar comp
+//use crea un namespace y $color, se emoezaria a llamar compondente.$color
+//@import "sass/componentes";
+
+//Mixins//
+
+@use "sass/mixins";
+//$color - mixins.$color
+//@import "sass/mixins";
+
+//Estilos//
+
+@use "sass/estilos";
+//$color - estilos.$color
+//@import "sass/estilos"
+
+//otros
+
+@use "sass/builtin"

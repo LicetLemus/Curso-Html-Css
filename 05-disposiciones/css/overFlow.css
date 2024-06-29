@@ -1,0 +1,54 @@
+/*Hidden: todo lo que sobresalga se oculte*/
+.contenedor-hidden {
+    margin: 10px 0px;
+    background-color:#E7E5E5 ;
+    width: 300px;
+    height: 140px;
+    padding: 15px;
+    text-align: justify;
+    overflow: hidden;
+}
+/*scroll: una barra para hacer scroll en todo el contenido*/
+
+.contenedor-scroll {
+    margin: 10px 0px;
+    background-color:#E7E5E5 ;
+    width: 300px;
+    height: 140px;
+    padding: 15px;
+    text-align: justify;
+    overflow: scroll;
+}
+
+/*visible: hay contenido desbordado, por defecto*/
+.contenedor-visible {
+    margin: 10px 0px;
+    background-color:#E7E5E5 ;
+    width: 300px;
+    height: 140px;
+    padding: 15px;
+    text-align: justify;
+    overflow: visible;
+}
+
+/*auto: optimiza y pone las barra solo donde es necesario*/
+.contenedor-auto {
+    margin: 10px 0px;
+    background-color:#E7E5E5 ;
+    width: 300px;
+    height: 140px;
+    padding: 15px;
+    text-align: justify;
+    overflow: auto;
+}
+
+.contenedor-scroll-x {
+    margin: 10px 0px;
+    background-color:#E7E5E5 ;
+    width: 300px;
+    height: 130px;
+    padding: 15px;
+    text-align: justify;
+    overflow-x: scroll;
+}
+

@@ -1,0 +1,46 @@
+h1 {
+    color: black;
+    font-size: 41.6px;
+    line-break: 120%;
+    font-weight: 700;
+    font-family: "Playfair Display",Georgia,serif;
+
+}
+
+p {
+    color:chocolate;
+    font-size: 19.3px;
+    font-family: "Montserrat",Arial,sans-serif;
+    }
+
+.Encabezado {
+    color: blueviolet;
+    font-size: 25pt;
+}
+
+#primeranoticia {
+    color:green;
+    font-size: 12pt;
+}
+
+#segundanoticia {
+    font-size: 12pt;
+}
+
+* .warning {
+    color: red;
+}
+
+.autor, .fecha, .ubicacion, h1 {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+/*Si yo quiero aplicar un mismo estilo a varias clase, puede hacerlo uno por uno o/
+
+
+
+/*Esto es un comentario*, colores y fuentes/
+/*. para classes, # para Id, aplicar estilos a los selectores/
+/*. selesctor universal (*) para elementos con una especificacion, en el caso de la class: warning/

@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    margin:0;
+    display: flex;
+    justify-content: center; /*centra horizontal*/
+    align-items: center; /*centra vertical*/
+    min-height: 100vh;
+}
+
+.btn-tooltip {
+    position: relative;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-bottom: 2px solid darkgreen; /*da efecto de 3D un tip*/
+    cursor: pointer;
+    transition: background-color 150ms;
+}
+
+
+/*.btn-tooltip:hover::before {
+    content: "Esto es un tooltip";
+    } una forma de poner un tooltip*/ 
+
+.tooltip {
+    position: absolute;
+    /*visibility: hidden;*/ /*otra forma con opacity*/
+    opacity: 0;
+    top:-50px;
+    left: -100%;
+    transform: translateX(25%) translateY(-25%);
+    color:#fff;
+    background-color: grey;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: opacity 150ms; /* se quitar opacity si lo hago convisibity*/
+}
+
+.btn-tooltip:hover { /*pseudoclase atributo hover estoy por encima da un efecto*/
+    background-color: rgba(0, 100, 0);/*cuando lo me paro encima cambia color*/
+}
+
+/*ahora el .tooltip tiene visibilidad hodden, entonces para que apafrezca debo*/
+.btn-tooltip:hover .tooltip {
+    /*visibility: visible;*/
+    opacity: 100%;
+}
+
+/*hacer un triangulito*/
+
+.tooltip::before {
+    content: ''; /*contenido vacio*/
+    border: solid 10px transparent;
+    border-top-color:grey;
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/*.triangulo {
+    border: solid 10px transparent;
+    border-top-color:#333;
+} */

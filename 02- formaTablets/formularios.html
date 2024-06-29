@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>formularios</title>
+  </head>
+  <body>
+    <form action="resultados.html" method="get">
+      <div>
+        <label for="nombredeusuario">Nombre de usuario</label>
+        <input type="text" name="nombredeusuario" id="nombredeusuario" required />
+      </div>
+      <br> 
+      <div>
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password" required/>
+      </div>
+      <br>
+      <div>
+        <label for="edad">Cual es tu edad?</label>
+        <input type="number" name="edad" id="edad" min="0" max="200" step="5"/>
+      </div>
+      <br>
+      <div>
+        <label for="nacimiento">Cual es tu fecha de nacimiento?</label>
+        <input type="date" name="nacimiento" id="nacimiento"/>
+      </div>
+      <br>
+      <div>
+        <label for="email">Cual es tu E-mail?</label>
+        <input type="email" name="email" id="email"/>
+      </div>
+      <br>
+      <div>
+        <label for="comentarios">comentarios</label>
+        <textarea name="comentarios" id="comentarios"></textarea>
+      </div>
+      <br>
+      <button type="reset">Reset</button>
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
+
+
+<!--form(formularios) campos para obtener informacion de usuarios
+    Action permite enviar la info, "method, mirar el cuaderno"
+    label: etiquetar input/campos for: para que campo quiero la etiqueta
+    input:campos de texto donde el usuario escribe  (el lugar donde pone
+    ejemplo el nonbre de usuario)-->
+
+<!--cuando quiero que sea un campo obligatorio atributo required (ricuayer)
+    type (en los input, para text, number, password aparece punticos parta que no
+    se ve la contrasena al escribir) -->
+
+    <!--Etiqueta para separar <br> -->
+
+<!--tipos dentro de los botones
+        type submit (enviar) reset (resetear)-->
+
+<!--Min  Mx, para limitar, port ejemplo la edad atributo step:que los numeros 
+    aumenten de cinco en cinco de diez en diez,etc... -->
+
+
+

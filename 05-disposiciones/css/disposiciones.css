@@ -1,0 +1,24 @@
+.div1, .div2 {
+    background-color: #E5EBEA;
+    /*por defecto div tiene display:block*/
+}
+
+.span1 {
+    background-color:#B098A4;
+    /*por defecto span display:inline*/
+}
+
+.span2 {
+    background-color:#B098A4;
+    float:right;
+    /*por defecto span display:inline
+    propiedad (paramentro) - float:ubica un elemento al lado izquierdo o derecho de su contenedor, 
+    permitiendo a los elementos de texto y en línea aparecer a su costado */
+}
+
+.img {
+    width: 85px;
+    height: 70px;
+    /*por defecto imagenes tiene display:inline block*/
+}
+
