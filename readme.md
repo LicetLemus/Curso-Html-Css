@@ -26,5 +26,6 @@ Este repositorio contiene mis apuntes y ejemplos prácticos del curso de HTML y 
 
 
 # Tecnologías Utilizadas
+
 * HTML
 * CSS
